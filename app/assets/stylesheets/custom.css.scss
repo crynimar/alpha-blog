@@ -11,6 +11,7 @@ $navbar-default-bg: black;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
+  //border: 1px solid #00f;
 }
 
 #logo:hover{
@@ -20,14 +21,16 @@ $navbar-default-bg: black;
 
 
 .center{
+  
   text-align: center ;
-  border: 1px solid #00f;
+ // border: 1px solid #00f;
 }
 
 .jumbotron{
   background-image: asset-url('LogoHome.png');
   background-size: cover;
   height: 400px;
+  border: 1px solid #00f;
   
   
 }
@@ -42,6 +45,15 @@ $navbar-default-bg: black;
   font-size: 1.7em;
   background-color: black;
   
+}
+
+.article-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description{
+  margin-top: 0;
 }
 
 .footer{
