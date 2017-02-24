@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   def current_user
     #return @current_user if already exists (se ja pegou no bd) 
     # ||= é o mesmo que if not(se nao pegou nada no bd ainda)   find this user (searched by user_id) if user_id exist
-    @current_user ||=User.find(session[:user_id]) if session[:user_id]
+    @current_user ||= User.find(session[:user_id]) if session[:user_id]
   end
 
   def logged_in?
